@@ -17,6 +17,19 @@
 *.zip
 *.tar.gz
 *.rar
+.vagrant/
+.vscode
+
+/bin/*
+/node_modules/*
+storage/
+
+config.json
+database.json
+database.dev.json
+database.prod.json
+config.dev.json
+config.prod.json
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
